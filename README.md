@@ -5,8 +5,6 @@ Lead Management System API with JWT authentication, RBAC, and Socket.IO notifica
 ## Requirements
 
 - Node.js 18+
-- MongoDB
-
 ## Setup
 
 ```bash
@@ -28,31 +26,18 @@ npm start
 
 By default, all registered users are assigned the sales role.
 You must manually create Admin and Manager users in the users collection.
+OR USE These Credentials for Admin and Manager
 
-
-== Insert Documents ======
-{
-  "name": "Admin User",
-  "email": "admin@example.com",
-  "password": "$2b$12$HyVk6jKUKYXmQnX/It2AoeGe5LkCqgtP9ydX/yYBA8ZUbMGZPM4jG",
-  "role": "admin"
-}
-
-
-{
-  "name": "Manager User",
-  "email": "manager@example.com",
-  "password": "$2b$12$QxGw1XbzNpThKl5xUdPqk.6lP0O6oLwYB/0zZ0bAJ2eSxzYRZfYVi",
-  "role": "manager"
-}
 
 ===Login Credentials======
 
-Email: admin@example.com
-Password: password123
+============ ADMIN ========
+Email:aniket123@gmail.com
+Password: admin123
 
-Email: manager@example.com
-Password: password123
+========= Manager =========
+Email: vikas123@gmail.com
+Password: admin123
 
 # For Sales you can register and login through UI
 
